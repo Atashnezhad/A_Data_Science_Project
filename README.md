@@ -44,7 +44,12 @@ Outliers for first 7 numerical features are seen below.
 </p>
 
 
+## Feature selection using SelectKBest from sklearn with 10 fold cross validation
 
+
+ <p align="left">
+  <img width="1000" src="Figures/selectkbest.png" >
+</p>
 
 
 ## Feature selection using ANOVA f-test from sklearn.
@@ -56,10 +61,4 @@ Outliers for first 7 numerical features are seen below.
 
 
 
-## Feature selection using SelectKBest from sklearn with 10 fold cross validation
-
-
- <p align="left">
-  <img width="300" src="Figures/selectkbest.png" >
-</p>
 
