@@ -33,3 +33,9 @@ My initial recap for numerical and catogirical features are as follow:
 - High score numerical features are as follow:
 ```['x16', 'x18', 'x28', 'x32', 'x35', 'x40', 'x47', 'x52', 'x57', 'x62', 'x68', 'x70', 'x75', 'x78', 'x81', 'x88', 'x89', 'x95', 'x96']```
 - With n_components=12, I get 0.62 AUC and as it is seen 12 principal components have 62٪ of variance. I may apply PCA if I found not using it computationally time expensive.
+
+
+
+ <p align="center">
+  <img width="1700" src="Figures/download2.png" >
+</p>
