@@ -38,7 +38,7 @@ My initial recap for numerical and catogirical features are as follow:
 - With n_components=12, I get 0.62 AUC, and as it is seen 12 principal components have 62٪ of variance. I may apply PCA if I found not using it computationally time expensive.
 
 
-Outliers for first 10 numerical features are seen below.
+Outliers for first 7 numerical features are seen below.
  <p align="center">
   <img width="1700" src="Figures/download2.png" >
 </p>
