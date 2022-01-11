@@ -10,7 +10,7 @@ This is a data sciecne project interview. The project has all sort of challenges
 My initial recap for numerical and catogirical features are as follow:
 
 ---
-## Recap for Categorical features
+## Analysis Recap for Categorical features
 
 * x3 is a nominal categorical feature (needs OneHotEncoder transformer) and custom function edit is needed
 * x7 column: the % sign should be cleaned from strings and I need to change the dtype and introduce it as a numeric feature.
@@ -27,7 +27,7 @@ My initial recap for numerical and catogirical features are as follow:
 * The x24, x33, and x77 columns NaN values need to be replaced by their mode.
 
 
-## Recap for Numerical features
+## Analysis Recap for Numerical features
 
 
 - Column 'x30', 'x44', 'x57' have more than 50% nan and should be droped
