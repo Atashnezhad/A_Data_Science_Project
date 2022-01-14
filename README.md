@@ -2,8 +2,8 @@
 
 Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
 
-<p align="center">
-  <img width="1700" src="Figures/download.png" >
+<p align="left">
+  <img width="1800" src="Figures/plot_02_2_mlp_lr.png" >
 </p>
 This is a data sciecne exercise project. The project has all sort of challenges inclduing dealing with missed values, encoding, transforming, skewness, etc.
 
