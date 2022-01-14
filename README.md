@@ -52,11 +52,11 @@ Outliers for first 7 numerical features are seen below.
 </p>
 
 
-## Feature selection using ANOVA f-test from sklearn.
+## Outcome
 
 
- <p align="left">
-  <img width="300" src="Figures/anova_feature_selc.png" >
+ <p align="center">
+  <img width="600" src="Figures/plot_02_2_roc_MLP_GB_lr.png" >
 </p>
 
 
