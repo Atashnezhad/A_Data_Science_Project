@@ -43,6 +43,16 @@ Outliers for first 7 numerical features are seen below.
   <img width="1700" src="Figures/download2.png" >
 </p>
 
+
+# EDA 
+
+ <p align="left">
+  <img width="1700" src="Figures/plot_01_1_EDA_4.png" >
+</p>
+
+
+
+
 # preprocessor pipeline
 
 ```python
