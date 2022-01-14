@@ -43,7 +43,27 @@ Outliers for first 7 numerical features are seen below.
   <img width="1700" src="Figures/download2.png" >
 </p>
 
+# preprocessor pipeline
 
+```python
+{'pipeline-1': Pipeline(steps=[('custom_edit_x3_tf',
+                  FunctionTransformer(func=<function custom_edit_x3 at 0x7fc1c7d2b7b8>)),
+                 ('imp', SimpleImputer(strategy='most_frequent')),
+                 ('ohe', OneHotEncoder())]),
+ 'pipeline-2': Pipeline(steps=[('imp', SimpleImputer(strategy='most_frequent')),
+                 ('ohe', OneHotEncoder())]),
+ 'pipeline-3': Pipeline(steps=[('imp_ohe', SimpleImputer(strategy='most_frequent')),
+                 ('ohe', OneHotEncoder())]),
+ 'pipeline-4': Pipeline(steps=[('imp', SimpleImputer()), ('scaler', StandardScaler()),
+                 ('p_tf', PowerTransformer()),
+                 ('selector', VarianceThreshold(threshold=0.1))]),
+ 'functiontransformer-1': FunctionTransformer(func=<function custom_edit_x7 at 0x7fc1c7d2ba60>),
+ 'functiontransformer-2': FunctionTransformer(func=<function custom_edit_x19 at 0x7fc1c7ccee18>),
+ 'pipeline-5': Pipeline(steps=[('imp', SimpleImputer()), ('scaler', StandardScaler()),
+                 ('p_tf', PowerTransformer()),
+                 ('selector', VarianceThreshold(threshold=0.1))]),
+ 'remainder': 'drop'}
+```
 
 
 
