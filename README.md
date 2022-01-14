@@ -44,19 +44,14 @@ Outliers for first 7 numerical features are seen below.
 </p>
 
 
-## Feature selection using SelectKBest from sklearn with 10 fold cross validation
 
-
- <p align="left">
-  <img width="1000" src="Figures/selectkbest.png" >
-</p>
 
 
 ## Outcome
 
 
- <p align="center">
-  <img width="600" src="Figures/plot_02_2_roc_MLP_GB_lr.png" >
+ <p align="left">
+  <img width="500" src="Figures/plot_02_2_roc_MLP_GB_lr.png" >
 </p>
 
 
