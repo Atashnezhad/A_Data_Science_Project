@@ -1,12 +1,69 @@
 # A two class classification for a data with 100 features
 
 
+
+## Description
+
 This is a data sciecne exercise project. The project has all sort of challenges inclduing dealing with missed values, encoding, transforming, skewness, etc.
 
+
+
+
+## Project Structure (Table of Contents)
+
+
+The project directory tree structure is provided below.
+
+```python
+── Codes
+│   ├── Instructions\ -Classification\ Exercise\ (40).txt
+│   ├── P01_1_Data_Cleansing_Categ.ipynb
+│   ├── P01_1_EDA_Categ.ipynb
+│   ├── P01_2_Data_Cleansing_Numerics.ipynb
+│   ├── P02_1_Modeling.ipynb
+│   └── P02_2_Modeling.ipynb
+├── DataSet
+│   ├── exercise_40_test.csv
+│   ├── exercise_40_train.csv
+│   ├── glmresults.csv
+│   └── nonglmresults.csv
+├── Figures
+├── README.md
+└── Summery
+    ├── P01_1_Data_Cleansing_Categ.pdf
+    ├── P01_1_EDA_Categ.pdf
+    ├── P01_2_Data_Cleansing_Numerics.pdf
+    ├── P02_1_Modeling.pdf
+    ├── P02_2_Modeling.pdf
+    └── summery.docx
+
+```
+
+
+
+
+
+
+## EDA 
+
+ <p align="left">
+  <img width="1700" src="Figures/plot_01_1_EDA_4.png" >
+</p>
+
+
+## Principal Component Analysis (PCA)
+
+Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
+
+<p align="left">
+  <img width="1800" src="Figures/plot_02_2_mlp_lr.png" >
+</p>
+
+
+## Recaps 
 My initial recap for numerical and catogirical features are as follow:
 
----
-## Analysis Recap for Categorical features
+### Analysis Recap for Categorical features
 
 * x3 is a nominal categorical feature (needs OneHotEncoder transformer) and custom function edit is needed
 * x7 column: the % sign should be cleaned from strings and I need to change the dtype and introduce it as a numeric feature.
@@ -23,7 +80,7 @@ My initial recap for numerical and catogirical features are as follow:
 * The x24, x33, and x77 columns NaN values need to be replaced by their mode.
 
 
-## Analysis Recap for Numerical features
+### Analysis Recap for Numerical features
 
 
 - Column 'x30', 'x44', 'x57' have more than 50% nan and should be droped
@@ -40,22 +97,9 @@ Outliers for first 7 numerical features are seen below.
 </p>
 
 
-# EDA 
-
- <p align="left">
-  <img width="1700" src="Figures/plot_01_1_EDA_4.png" >
-</p>
 
 
-# Principal Component Analysis (PCA)
-
-Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
-
-<p align="left">
-  <img width="1800" src="Figures/plot_02_2_mlp_lr.png" >
-</p>
-
-# Preprocessor pipeline
+## Preprocessor pipeline
 
 ```python
 {'pipeline-1': Pipeline(steps=[('custom_edit_x3_tf',
@@ -88,4 +132,7 @@ Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
 
 
 
+## Suggestions
 
+- The grid search should be done on XGBoost algorithm to optimize the AUC results.
+- Combination of two or more algorithms can be used and the average estimations AUC can be evaluated to see if it improves the final results.
