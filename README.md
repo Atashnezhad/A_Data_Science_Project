@@ -5,7 +5,9 @@
 ## Description
 
 This is a data sciecne exercise project. The project has all sort of challenges inclduing dealing with missed values, encoding, transforming, skewness, etc.
+The data in this exercise have been simulated to mimic real, dirty data. Please clean the data with whatever method(s) you believe to be best/most suitable. Success in this exercise typically involves feature engineering and avoiding data leakage. You may create new features. However, you may not add or supplement with external data.
 
+For this exercise, you are required to build two models. The first model must be a logistic regression. The second model may be any supervised learning algorithm that is not from the GLM family.
 
 
 
