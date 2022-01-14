@@ -1,10 +1,6 @@
 # A two class classification for a data with 100 features
 
-Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
 
-<p align="left">
-  <img width="1800" src="Figures/plot_02_2_mlp_lr.png" >
-</p>
 This is a data sciecne exercise project. The project has all sort of challenges inclduing dealing with missed values, encoding, transforming, skewness, etc.
 
 My initial recap for numerical and catogirical features are as follow:
@@ -51,9 +47,15 @@ Outliers for first 7 numerical features are seen below.
 </p>
 
 
+# Principal Component Analysis (PCA)
 
+Principal Component Analysis (PCA) with 10 fold cross-validation is seen below.
 
-# preprocessor pipeline
+<p align="left">
+  <img width="1800" src="Figures/plot_02_2_mlp_lr.png" >
+</p>
+
+# Preprocessor pipeline
 
 ```python
 {'pipeline-1': Pipeline(steps=[('custom_edit_x3_tf',
