@@ -136,5 +136,4 @@ Outliers for first 7 numerical features are seen below.
 
 ## Suggestions
 
-- The grid search should be done on XGBoost algorithm to optimize the AUC results.
 - Combination of two or more algorithms can be used and the average estimations AUC can be evaluated to see if it improves the final results.
