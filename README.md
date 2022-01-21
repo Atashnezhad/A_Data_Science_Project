@@ -48,9 +48,16 @@ The project directory tree structure is provided below.
 
 ## EDA 
 
+
+
+ <p align="left">
+  <img width="1700" src="Figures/plot_01_1_hist2d.png" >
+</p>
+
  <p align="left">
   <img width="1700" src="Figures/plot_01_1_EDA_4.png" >
 </p>
+
 
 
 ## Principal Component Analysis (PCA)
