@@ -128,8 +128,9 @@ Outliers for first 7 numerical features are seen below.
 ## Outcome
 
 
- <p align="left">
-  <img width="500" src="Figures/plot_02_2_roc_MLP_GB_lr.png" >
+ <p align="center">
+  <img width="450" src="Figures/plot_02_2_roc_MLP_GB_lr.png" >
+    <img width="450" src="Figures/plot_01_1_roc_GB_lr_lr2.png" >
 </p>
 
 
